@@ -1,0 +1,7 @@
+<section class="header">
+    <ng-content select="app-expander-button"></ng-content>
+    <ng-content select="[expander-header]"></ng-content>
+</section>
+<section class="body" *ngIf="isExpanded">
+    <ng-content></ng-content>
+</section>

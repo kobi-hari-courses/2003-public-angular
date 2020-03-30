@@ -1,0 +1,27 @@
+<app-expander #myExpander [isExpanded]="true">
+    <app-expander-button>
+        <button>
+            <img src="https://miro.medium.com/max/1238/1*LoAAKCmLu_m5N5HVXbkUOw.gif" *ngIf="myExpander.isExpanded">
+            <img src="https://png.pngtree.com/svg/20170217/d61162199d.png" *ngIf="!myExpander.isExpanded">
+        </button>
+    </app-expander-button>
+    <h1 expander-header>Today is:</h1>
+    <h2>Hello World</h2>
+    <strong>Today is:</strong> Monday
+    <h2 expander-header>The next days are:</h2>
+    <ul>
+        <li>Tuesday</li>
+        <li>Wednesday</li>
+        <li>Thursday</li>
+    </ul>
+</app-expander>
+
+
+<app-expander #mySecondExpander [isExpanded]="false">
+    <app-expander-button>
+        <button>Toggle!</button>
+    </app-expander-button>
+    <h1 expander-header>Second Expander</h1>
+    <p>This is the content of the second expander</p>
+
+</app-expander>
