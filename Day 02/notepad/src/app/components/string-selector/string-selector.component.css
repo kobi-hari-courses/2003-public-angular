@@ -1,0 +1,18 @@
+li {
+    margin: 2px;
+    padding: 4px;
+    border: 1px solid lightgray;
+    border-radius: 3px;
+    cursor: pointer;
+    list-style: none;
+}
+
+li.chosen {
+    background: lightgreen;
+}
+
+li:hover {
+    background: lightgray;
+}
+
+
