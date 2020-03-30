@@ -6,6 +6,7 @@ and also - through `Whatsapp`
 
 # Daily Summaries
 * [Day 1 - Typescript and introduction to Angular](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-1---Typescript-and-introduction-to-Angular)
+* [Day 2 - Components](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-2---Components)
 
 # Class Exercises
 * [Exercise 1 - Practice typescript - Stock Market](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Exercise-1---Typescript-Stock-Market)
@@ -19,5 +20,7 @@ and also - through `Whatsapp`
 
 # External Links
 * [Angular Formal Documentation](https://angular.io/)
+* [Complete Guid to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+* [Grid Garden Game](https://cssgridgarden.com/)
 
 
