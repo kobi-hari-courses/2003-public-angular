@@ -1,0 +1,10 @@
+<button (click)="go()">GO!</button>
+<button (click)="toggleCounterPresenter()">Toggle Counter</button>
+
+<hr>
+
+<app-counter-presenter *ngIf="isShowingCounterPresenter"></app-counter-presenter>
+
+<hr>
+
+<app-counter-editor></app-counter-editor>
