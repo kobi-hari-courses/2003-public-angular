@@ -8,6 +8,7 @@ and also - through `Whatsapp`
 * [Day 1 - Typescript and introduction to Angular](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-1---Typescript-and-introduction-to-Angular)
 * [Day 2 - Components](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-2---Components)
 * [Day 3 - DI, Promises and RxJS Subjects](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-3-DI-Promises-and-RxJS)
+* [Day 4 - RxJS Operators and Routing](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-4-RxJS-Operators-and-Routing)
 
 # Class Exercises
 * [Exercise 1 - Practice typescript - Stock Market](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Exercise-1---Typescript-Stock-Market)
