@@ -1,0 +1,19 @@
+.question-card {
+    cursor: pointer;
+    border: 1px solid lightgray;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.question-card:hover {
+    background-color: lightgray;
+}
+
+.correct {
+    color: green;
+}
+
+.wrong {
+    color: red;
+}

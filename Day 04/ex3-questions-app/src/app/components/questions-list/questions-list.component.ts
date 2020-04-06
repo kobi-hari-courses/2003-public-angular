@@ -1,4 +1,7 @@
+import { DataService } from './../../core/services/data.service';
 import { Component, OnInit } from '@angular/core';
+import { Question } from 'src/app/core/models/question';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-questions-list',
@@ -6,10 +9,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./questions-list.component.css']
 })
 export class QuestionsListComponent implements OnInit {
+  questions: Question[] = [];
 
-  constructor() { }
+  constructor(
+    private data: DataService, 
+    private router: Router) { }
 
-  ngOnInit(): void {
+  async ngOnInit() {
+    this.questions = await this.data.getAllQuestions();
+  }
+
+  navigateToQuestion(index: number) {
+    this.router.navigate(['questions', index]);
   }
 
 }

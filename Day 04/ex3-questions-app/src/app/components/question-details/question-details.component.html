@@ -1,1 +1,10 @@
-<p>question-details works!</p>
+<div class="root" *ngIf="(question$ | async) as question">
+    <h1>{{question.caption}}</h1>
+
+    <div class="question" *ngFor="let answer of question.answers; let i = index"
+        (click)="setAnswer(i)"
+        >
+        {{answer}}
+    </div>
+
+</div>

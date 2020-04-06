@@ -1,1 +1,12 @@
-<p>questions-list works!</p>
+<div class="question-card" 
+    *ngFor="let question of questions; let i = index"
+    (click)="navigateToQuestion(i)"
+    >
+    <h1>{{question.caption}}</h1>
+    <div *ngIf="question.userAnswerIndex !== null" 
+        [class.correct]="question.userAnswerIndex === question.correctAnswerIndex"
+        [class.wrong]="question.userAnswerIndex !== question.correctAnswerIndex"        
+        >
+        <h3>{{question.answers[question.userAnswerIndex]}}</h3>
+    </div>
+</div>

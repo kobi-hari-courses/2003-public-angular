@@ -1,0 +1,12 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.question {
+    cursor: pointer;
+}
+
+.question:hover {
+    background-color: lightgray;
+}
