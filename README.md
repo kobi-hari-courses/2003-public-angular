@@ -23,6 +23,9 @@ and also - through `Whatsapp`
 * [Homework 1 - Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
 * [Extra Material - RxJS Video](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
 
+# Extra Meterial 
+* [Recommended VS Code Extensions](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Recommended-Extensions)
+
 # External Links
 * [Angular Formal Documentation](https://angular.io/)
 * [Complete Guid to CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
