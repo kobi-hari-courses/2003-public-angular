@@ -1,0 +1,28 @@
+nav ul {
+    display: flex;
+    flex-direction: row;
+    background: lightblue;
+    margin: 0px;
+    padding: 0px;
+}
+
+nav li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+
+nav li a {
+    text-decoration: none;
+    background: lightskyblue;
+    color: black;    
+    padding: 8px;    
+    margin: 0px;
+    display: flex;
+}
+
+nav li.chosen a {
+    background:rgb(42, 77, 98);
+    color: white;
+}

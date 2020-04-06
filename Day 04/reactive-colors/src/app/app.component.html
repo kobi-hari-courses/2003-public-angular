@@ -1,0 +1,13 @@
+<div class="toolbar">
+  <input #searchBox (input)="onInput(searchBox.value)" type="search">
+  <img *ngIf="isBusy$ | async" 
+  src="https://thumbs.gfycat.com/ShorttermUntidyHamadryas-small.gif">
+</div>
+<div class="results">
+
+  <div *ngFor="let color of (results$ | async)" [style.background-color]="color.code">
+    {{color.displayName}}
+  </div>
+
+</div>
+

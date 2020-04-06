@@ -1,0 +1,14 @@
+.toolbar {
+    display: flex;
+}
+
+img {
+    width: 40px;
+    margin: 4px;
+}
+
+input {
+    font-size: 18px;
+    color: navy;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

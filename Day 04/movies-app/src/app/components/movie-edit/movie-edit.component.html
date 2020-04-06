@@ -1,0 +1,8 @@
+<div *ngIf="(movie$ | async) as movie">
+    <label>Caption</label>
+    <input type="text" [value]="movie.caption">
+    <label>Poster</label>
+    <input type="text" [value]="movie.poster">
+    <label>Description</label>
+    <textarea>{{movie.description}}</textarea>
+</div>

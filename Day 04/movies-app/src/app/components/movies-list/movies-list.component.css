@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    color: var(--p700);
+    border: 1px solid var(--p300);
+    margin: 4px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: var(--p100);
+}
