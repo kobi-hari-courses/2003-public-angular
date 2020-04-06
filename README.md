@@ -7,6 +7,7 @@ and also - through `Whatsapp`
 # Daily Summaries
 * [Day 1 - Typescript and introduction to Angular](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-1---Typescript-and-introduction-to-Angular)
 * [Day 2 - Components](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-2---Components)
+* [Day 3 - DI, Promises and RxJS Subjects](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Day-3-DI-Promises-and-RxJS)
 
 # Class Exercises
 * [Exercise 1 - Practice typescript - Stock Market](https://github.com/kobi2294/Course-032020-Public-Angular/wiki/Exercise-1---Typescript-Stock-Market)
@@ -17,6 +18,7 @@ and also - through `Whatsapp`
 # Home Exercises
 * [Homework 1 - Description](https://www.dropbox.com/s/rkhx8ge3lj5um6t/Description.pptx?dl=0)
 * [Homework 1 - Video](https://www.dropbox.com/s/8ybqibl7geul9bm/Solution.mp4?dl=0)
+* [Extra Material - RxJS Video](https://www.dropbox.com/s/05vsshf61oh5p1y/Reactive%20X.mp4?dl=0)
 
 # External Links
 * [Angular Formal Documentation](https://angular.io/)
