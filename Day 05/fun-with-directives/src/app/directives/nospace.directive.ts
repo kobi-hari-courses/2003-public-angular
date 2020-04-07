@@ -31,11 +31,6 @@ export class NospaceDirective implements OnInit {
   ngOnInit(): void {
     this.lastValidValue = '';
     this.validate(this.host.nativeElement);
-
-
-    this.ctrl.valueChanges.subscribe(val => {
-      console.log('observable emitted ' + val);
-    })
   }
 
 
