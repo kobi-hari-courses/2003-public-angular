@@ -1,0 +1,40 @@
+:host {
+    display: flex;
+    flex-direction: column;
+}
+
+.bla {
+    border: 1px solid black;
+}
+
+h1 {
+
+}
+
+input.mine {
+
+}
+
+
+div .mine {
+
+}
+
+.mine~.yours {
+
+}
+
+h1+span {
+
+}
+
+input[type="number"][disabled].x {
+
+}
+
+input[disabled] {
+}
+
+x, y, .bla {
+    
+}

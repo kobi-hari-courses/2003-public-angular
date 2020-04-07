@@ -1,23 +1,42 @@
-import { Directive, ElementRef, OnInit, Renderer2, HostBinding, HostListener } from '@angular/core';
+import { Directive, ElementRef, OnInit, Renderer2, HostBinding, HostListener, Input, EventEmitter, Output } from '@angular/core';
 
 @Directive({
-  selector: '[appHighlight]'
+  selector: '[appHighlight], [hl], .hl'
 })
 export class HighlightDirective implements OnInit {
 
+  _color: string;
+
+  @Input('appHighlight')
+  set color(value: string) {
+    this._color = value;
+    this.bg = `rgba(${this.color}, 0.25)`;
+  }
+  get color(): string {return this._color;}
+
+
+  @Output()
+  triggered = new EventEmitter<void>();
+
+
   @HostBinding('style.background-color')
-  bg: string = 'rgba(0, 255, 255, 0.25)';
+  bg: string;
 
   @HostListener('mouseenter')
   start() {
-    this.bg = 'rgba(0, 255, 255, 1)';
+    const clr = this._color ? this._color : '0, 255, 255';
+    this.bg = `rgba(${clr}, 1)`;
+    this.triggered.emit();
   }
 
   @HostListener('mouseleave')
   stop() {
-    this.bg = 'rgba(0, 255, 255, 0.25)';
+    const clr = this._color ? this._color : '0, 255, 255';
+    this.bg = `rgba(${clr}, 0.25)`
   }
 
+  constructor(){
+  }
 
   ngOnInit(): void {
     // this.elem.nativeElement.style.backgroundColor = 'yellow';
