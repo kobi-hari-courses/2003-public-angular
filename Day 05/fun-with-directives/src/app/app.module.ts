@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { HighlightDirective } from './directives/highlight.directive';
 import { NospaceDirective } from './directives/nospace.directive';
 import { ReactiveFormsModule } from '@angular/forms';
+import { HideableDirective } from './directives/hideable.directive';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HighlightDirective,
-    NospaceDirective, 
+    NospaceDirective,
+    HideableDirective, 
   ],
   imports: [
     BrowserModule,

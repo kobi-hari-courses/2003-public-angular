@@ -2,9 +2,9 @@
 <h2 class="bla">We will learn the following:</h2>
 <ul>
   <li>What is a directive</li>
-  <li hl appHighlight="255,0,0">Simple Element Directives</li>
-  <li class="bla">DOM Manipulation</li>
-  <li class="hl">Renderer2</li>
+  <li appHideable hl appHighlight="255,0,0">Simple Element Directives</li>
+  <li [appHideable]="4000" class="bla">DOM Manipulation</li>
+  <li [appHideable]="10000" class="hl">Renderer2</li>
   <li>HostBinding and HostListener</li>
   <li [appHighlight]="myFavoriteColor">Input and Outputs</li>
   <li hl>Selectors</li>
