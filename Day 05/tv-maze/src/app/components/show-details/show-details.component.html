@@ -1,0 +1,12 @@
+<div *ngIf="(show$ | async) as show">
+    <h1>{{show.name}}</h1>
+
+    <h2>Genres</h2>
+    <ul>
+        <li *ngFor="let g of show.genres">
+            {{g}}
+        </li>
+    </ul>
+    <img [src]="show.image.original">
+    <p [innerHTML]="show.summary"></p>
+</div>

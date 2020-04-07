@@ -1,0 +1,42 @@
+<div [formGroup]="form">
+  <div class="field-container">
+    <label>Username:</label>
+    <input type="text" formControlName="username">
+  </div>
+  
+  <div class="field-container">
+    <label>Description:</label>
+    <textarea formControlName="description"></textarea>
+  </div>
+  
+  <div class="field-container">
+    <label>Age:</label>
+    <input type="number" formControlName="age">
+  </div>
+  
+  <div class="field-container">
+    <label>Email:</label>
+    <input type="text" formControlName="email">
+  </div>
+  
+</div>
+
+<button [disabled]="!form.valid" (click)="save()">Save</button>
+<hr>
+
+<pre>
+  <ng-container *ngIf="form as field">
+    valid: {{field.valid}}
+    invalid: {{field.invalid}}
+    touched: {{field.touched}}
+    untouched: {{field.untouched}}
+    pristine: {{field.pristine}}
+    dirty: {{field.dirty}}
+    pending: {{field.pending}}
+    status: {{field.status}}
+  
+    errors: {{field.errors | json }}
+    value: {{field.value | json}}
+  
+  </ng-container>
+</pre>

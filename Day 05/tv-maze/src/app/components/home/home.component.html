@@ -1,0 +1,9 @@
+<div *ngIf="(shows$ | async) as shows">
+    <ul>
+        <li *ngFor="let show of shows"
+            (click)="goToShow(show.id)"
+        >
+            {{show.name}}
+        </li>
+    </ul>
+</div>

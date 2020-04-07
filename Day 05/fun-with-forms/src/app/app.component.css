@@ -1,0 +1,22 @@
+.field-container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input, textarea {
+    outline: transparent;
+}
+
+input.ng-invalid.ng-touched, textarea.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+input.ng-valid.ng-touched, textarea.ng-valid.ng-touched {
+    border: 1px solid green;
+}
+
+input.ng-pending, textarea.ng-pending {
+    border: 1px solid yellow;
+}
+
